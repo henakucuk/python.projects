@@ -1,7 +1,0 @@
-upper= biri bir harf girdiğinde(a) ama biz harfleri küçük/büyük olarak tanımladığimizda o harfi büyük(A) yapar.
-lower = tam tersi, harf (A) girildiğinde onu nasıl tanımlanmış olursa olsun küçük yapar (a)
-
-***harf= input("Bir harf giriniz").lower()  gibi
-
-
-
