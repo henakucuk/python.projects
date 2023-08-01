@@ -1,0 +1,16 @@
+4.07.23
+
+literal sabit demek
+
+\n alt satıra geçiriyor(string içinde) new line nın kısaltılması
+\t tam şekilde eşitliyor tabın kısaltılması
+
+1.84 float sabiti(literalı) 
+
+yas = input("yasın ne")
+yasın ne23
+print(yas)
+23
+type(yas)
+<class 'str'>
+#string dedi.

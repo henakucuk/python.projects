@@ -1,0 +1,23 @@
++    toplama(birleştirme)
+-    çıkarma
+*    çarpma(çoğaltma)
+/    bölme (10/3 sonucu 3.
+//   kalansız bölme(mesela 10/3 ün sonucu 3)
+
+
+%    mod alma(modülüs) bölümünden kalan (1%2 1in 2ye bölümünden kalan 1dir)(4%2 4ün 2ye bölümünden kalan 0 dır)(kalan 0 ise çift sayıdır,1 ise tek)(ilerde bir sayının çift mi tek mi olduğunu bulmak için bunu kullanacağız)
+
+
+**     üs alma 3**2 3ün 2.kuvveti yani 9
+=      atama operatörü
+
+(aşağıdakilerin cevapları bool olarak yani true false olarak verilir)
+<      küçüktür
+>      büyüktür
+<=     küçük eşittir
+>=     büyük eşittir
+==     eşit mi,eşit ise
+!=     eşit değil ise(10!=10 10 eşit değilse 10a false dur)
+and    ve
+or     veya
+not    değil

@@ -1,0 +1,9 @@
+string = (str) =metinsel ifadeler
+integer = (int) =  tam sayı
+float = (float) = ondalıklı sayılar  1.84(noktalı)
+boolean = (bool) = true veya false (araştır bu adamı)
+
+type tipine bakar(mesela  tipi string veya integer gibi)
+
+print(f"benim adım{ad}yaşım ise{27}")
+buradaki f formatın kısaltılmışı ve böyle yapınca kendisi düzgünce yerleştiriyor.
