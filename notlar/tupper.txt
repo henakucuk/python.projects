@@ -1,0 +1,8 @@
+#tuple denemenin çok benzeri ama append yapamıyorsun ve çıkartamıyorsun
+#normal parantez ile yazıyorsun ()
+# tuople yani demette sadece index(arama) yada count(sayma) kullanabiliyoruz
+#demeti listeye çevirip düzenleyebiliyoruz a = list(demet) list yapıyor,böylece düzenleyebiliyoruz
+#demeti liste yapsak bile demet hala tuple kalıyor a liste oluyor,demet değil(içindeki değerleri listeye çevirdik)
+# demet2 = demet yapıp kopyalabiliyoruz (yani demetin içindekileri demet2 ye koyyalayabiliyoruz)
+
+* işareti tuple yapıyor
