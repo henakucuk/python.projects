@@ -1,0 +1,48 @@
+import tkinter as tk
+
+pen=tk.Tk()
+pen.geometry("600x300")
+
+def vki(e):
+    b=boy.get()/100
+    k=kilo.get()
+    sonuc=k/(b*b)
+    lbl2["text"]=round(sonuc,2)
+    
+    if sonuc<=18.5:
+        lbl2["font"]=("Arial",32)
+        lbl2["bg"]="pink"
+        lbl2["fg"]="white"
+        lbl2["text"]=f"{round(sonuc,2)}  - ZAYIF"
+    elif sonuc>= 18.5 and sonuc<=24.9:
+        lbl2["font"]=("Arial",32)
+        lbl2["bg"]="lightblue"
+        lbl2["fg"]="white"
+        lbl2["text"]=f"{round(sonuc,2)}   - NORMAL"
+    elif sonuc>= 25 and sonuc<=29.9:
+        lbl2["font"]=("Arial",32)
+        lbl2["bg"]="blue"
+        lbl2["fg"]="white"
+        lbl2["text"]=f"{round(sonuc,2)}   - KİLOLU"
+    elif sonuc>= 30 and sonuc<=34.9:
+        lbl2["font"]=("Arial",32)
+        lbl2["bg"]="red"
+        lbl2["fg"]="white"
+        lbl2["text"]=f"{round(sonuc,2)}   - OBEZ"
+    elif sonuc>= 35:
+        lbl2["font"]=("Arial",25)
+        lbl2["bg"]="brown"
+        lbl2["fg"]="white"
+        lbl2["text"]=f"{round(sonuc,2)}   - MORBİD OBEZ"
+
+boy=tk.Scale(tickinterval=20,showvalue=True,length=250,from_=50,to=200,orient="horizontal",command=vki)
+kilo=tk.Scale(tickinterval=20,showvalue=True,length=250,from_=20,to=150,orient="horizontal",command=vki)
+
+boy.grid(row=0,column=1)
+kilo.grid(row=1,column=1)
+
+lbl2=tk.Label(text="",font=("Arial",32))
+lbl2.grid(row=2,column=1)
+
+
+pen.mainloop()
